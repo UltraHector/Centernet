@@ -1,4 +1,4 @@
-NightFury
+Centernet
 =========
 
-这是掌上暨大的工程代码
+这是Centernet的初始代码。
