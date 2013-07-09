@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_item_background" >
+
+    <ImageView
+        android:id="@+id/ciaImg"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/app_logo"
+        android:paddingLeft="0dip" />
+
+    <TextView
+        android:id="@+id/ciaAppLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/ciaImg"
+        android:paddingLeft="3dip"
+        android:paddingTop="3dip"
+        android:text="@string/cia_appname" />
+
+    <TextView
+        android:id="@+id/ciaAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_toRightOf="@+id/ciaAppLabel"
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip"
+        android:textColor="@color/orange"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/ciaVersionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ciaAppLabel"
+        android:layout_below="@+id/ciaAppLabel"
+        android:layout_toRightOf="@+id/ciaImg"
+        android:paddingLeft="3dip"
+        android:paddingTop="3dip"
+        android:text="@string/cia_app_version" />
+
+    <TextView
+        android:id="@+id/ciaVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ciaAppName"
+        android:layout_below="@+id/ciaAppLabel"
+        android:layout_toRightOf="@+id/ciaVersionLabel"
+        android:paddingLeft="5dip"
+        android:paddingTop="3dip"
+        android:textColor="@color/orange"
+        android:textIsSelectable="false" />
+
+    <ImageView
+        android:id="@+id/cia_select_state"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dip"
+        android:contentDescription="@string/app_select_state" />
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout_tab1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background" >
+
+        <ListView
+            android:id="@+id/wifihistory_scan_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="52dp"
+            android:scrollbars="none" >
+        </ListView>
+
+        <LinearLayout
+            android:id="@+id/wifihistory_bottom_bar"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/titlebar_bg2"
+            android:contentDescription="@string/text_remove_history_record" >
+
+            <Button
+                android:id="@+id/wifihistory_deleteRecord_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/text_remove_history_record"
+                android:text="@string/text_remove_history_record" />
+
+            <Button
+                android:id="@+id/wifihistory_selectAllRecord_button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:contentDescription="@string/text_select_all_history_record"
+                android:text="@string/text_select_all_history_record" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

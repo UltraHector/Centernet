@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_background"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/tab1_wifi_intensity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/tab_wifi_intensity_marginLeft"
+        android:layout_marginTop="@dimen/tab_wifi_intensity_marginTop"
+        android:contentDescription="@string/tab1_wifi_intensify_iamge"
+        android:paddingBottom="@dimen/tab_wifi_intensity_paddingBottom"
+        android:paddingTop="@dimen/tab_wifi_intensity_paddingTop" />
+
+    <Button
+        android:id="@+id/tab1_ignore_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/tab_button_marginRight"
+        android:background="@color/orange"
+        android:focusable="false"
+        android:paddingBottom="@dimen/tab_button_paddingBottom"
+        android:paddingLeft="@dimen/tab_button_paddingLeft"
+        android:paddingRight="@dimen/tab_button_paddingRight"
+        android:paddingTop="@dimen/tab_button_paddingTop"
+        android:text="@string/text_ignore" />
+
+    <Button
+        android:id="@+id/tab1_config_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="@dimen/tab_button_marginRight"
+        android:layout_toLeftOf="@+id/tab1_ignore_button"
+        android:background="@color/orange"
+        android:focusable="false"
+        android:paddingBottom="@dimen/tab_button_paddingBottom"
+        android:paddingLeft="@dimen/tab_button_paddingLeft"
+        android:paddingRight="@dimen/tab_button_paddingRight"
+        android:paddingTop="@dimen/tab_button_paddingTop"
+        android:text="@string/text_conifg" />
+
+    <TextView
+        android:id="@+id/tab1_wifi_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/tab1_config_button"
+        android:layout_toRightOf="@+id/tab1_wifi_intensity"
+        android:paddingLeft="@dimen/tabhost_item_ssid_paddingleft"
+        android:paddingTop="@dimen/tab_wifi_ssid_paddingTop"
+        android:text="@string/none_string"
+        android:textSize="@dimen/tabhost_item_ssid" />
+
+    <TextView
+        android:id="@+id/tab1_wifi_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tab1_wifi_ssid"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tab1_wifi_ssid"
+        android:paddingBottom="@dimen/tab_wifi_state_paddingBottom"
+        android:paddingLeft="@dimen/tabhost_item_ssid_paddingleft"
+        android:text="@string/none_string"
+        android:textSize="@dimen/tabhost_item_state" />
+
+</RelativeLayout>

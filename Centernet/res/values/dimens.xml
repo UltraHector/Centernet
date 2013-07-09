@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="tabhost_item_ssid">18sp</dimen>
+    <dimen name="tabhost_item_state">12sp</dimen>
+    <dimen name="tabhost_item_ssid_paddingleft">15dp</dimen>
+    <dimen name="tab_wifi_intensity_marginLeft">5dp</dimen>
+    <dimen name="tab_wifi_intensity_marginTop">2dp</dimen>
+    <dimen name="tab_wifi_intensity_paddingBottom">5dp</dimen>
+    <dimen name="tab_wifi_intensity_paddingTop">5dp</dimen>
+    <dimen name="tab_button_paddingBottom">5dp</dimen>
+    <dimen name="tab_button_paddingLeft">15dp</dimen>
+    <dimen name="tab_button_paddingRight">15dp</dimen>
+    <dimen name="tab_button_paddingTop">5dp</dimen>
+    <dimen name="tab_wifi_ssid_paddingTop">5dp</dimen>
+    <dimen name="tab_wifi_state_paddingBottom">10dp</dimen>
+    <dimen name="tab_button_marginRight">10dp</dimen>
+
+</resources>

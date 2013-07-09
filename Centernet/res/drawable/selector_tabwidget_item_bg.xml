@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/orange" android:state_pressed="true"/>
+    <!-- pressed -->
+    <item android:drawable="@color/orange" android:state_focused="true"/>
+    <!-- focused -->
+    <item android:drawable="@color/tab_color" android:state_selected="true"/>
+    <!-- default -->
+
+    <item><layer-list>
+
+            <!-- 连框颜色值 -->
+            <item><shape>
+                    <solid android:color="@color/orange" />
+                </shape></item>
+            <!-- 主体背景颜色值 -->
+            <item android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="0dp"><shape>
+                    <solid android:color="@color/orange" />
+
+                    <padding android:bottom="10dp" android:top="10dp" />
+                </shape></item>
+        </layer-list></item>
+
+</selector>

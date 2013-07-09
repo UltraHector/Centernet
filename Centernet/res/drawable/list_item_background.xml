@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <selector>
+            <item
+                android:drawable="@color/orange"
+                android:state_pressed="true"/>
+            <!-- pressed -->
+            <item
+                android:drawable="@color/tab_color"
+                android:state_focused="true"/>
+            <!-- focused -->
+            <item android:drawable="@color/tab_color"/>
+            <!-- default -->
+        </selector>
+    </item>
+
+</layer-list>

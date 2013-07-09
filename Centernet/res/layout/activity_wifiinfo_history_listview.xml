@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_background"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/wifi_history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="@dimen/tabhost_item_ssid_paddingleft"
+        android:paddingTop="@dimen/tab_wifi_ssid_paddingTop"
+        android:text="@string/none_string"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/wifi_history_selectedStatus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:contentDescription="@string/description_wifi_scan_history_select_status"
+        android:focusable="false" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/centernet_scan_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/tab_wifi_intensity_marginLeft"
+        android:layout_marginTop="@dimen/tab_wifi_intensity_marginTop"
+        android:contentDescription="@string/tab1_wifi_intensify_iamge"
+        android:paddingBottom="@dimen/tab_wifi_intensity_paddingBottom"
+        android:paddingTop="@dimen/tab_wifi_intensity_paddingTop" />
+
+    <TextView
+        android:id="@+id/centernet_scan_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/centernet_scan_image"
+        android:paddingLeft="@dimen/tabhost_item_ssid_paddingleft"
+        android:paddingTop="@dimen/tab_wifi_ssid_paddingTop"
+        android:text="@string/none_string"
+        android:textSize="@dimen/tabhost_item_ssid" />
+
+</RelativeLayout>

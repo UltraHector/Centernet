@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Centernet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- String Values Created By Hector -->
+    <string name="wifi_password">请输入密码</string>
+    <string name="save_wifi_password_checkbox">记住密码</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <!-- End of String Values Created By Hector -->
+
+
+    <!-- String Values Created By Sam -->
+    <string name="myfirst_button">单击我！</string>
+    <string name="text_conifg">配置</string>
+    <string name="text_ignore">忽略</string>
+    <string name="text_refresh">刷新</string>
+    <string name="text_unstall_app">卸载选定程序</string>
+    <string name="text_remove_history_record">删除选中历史记录</string>
+    <string name="text_select_all_history_record">全选</string>
+    <string name="text_select_convert_history_record">反选</string>
+    <string name="text_recover">恢复</string>
+    <string name="text_save">save</string>
+    <string name="text_not_save">not save</string>
+    <string name="text_scan">扫描Centernet</string>
+    <string name="app_name_cn">wifiinfo</string>
+    <string name="scan_wifi_info">扫描到的wifi信息</string>
+    <string name="select_function">选着功能</string>
+    <string name="all_function">全部功能</string>
+    <string name="scan_centernet">扫描Centernet</string>
+    <string name="centernet_webview">Centernet浏览</string>
+    <string name="centernet_installed_app_management">管理已安装APP</string>
+    <string name="about_activity">相关内容</string>
+    <string name="centernet_scan_activity">Centernet扫描</string>
+    <string name="centernet_webview_activity">Centernet浏览</string>
+    <string name="function_serach">搜索</string>
+    <string name="function_about">关于</string>
+    <string name="function_history">历史记录</string>
+    <string name="function_debug">调试</string>
+    <string name="function_app_management">app管理</string>
+    <string name="function_gps_location">GPS测试</string>
+    <string name="function_tabtest">tabtest</string>
+    <string name="wifiinfo_history">wifi历史信息</string>
+    <string name="none_wifiinfohistory_probe_button">搜索wifi</string>
+    <string name="tab1_wifi_intensify_iamge">描述有密码状态的图片</string>
+    <string name="none_string"></string>
+    <string name="tab1_name">有密码的wifi</string>
+    <string name="tab2_name">无密码的wifi</string>
+    <string name="cia_appname">程序名:</string>
+    <string name="cia_app_version">版本号:</string>
+    <string name="app_logo">app_logo</string>
+    <string name="app_select_state">app_select_state</string>
+    <string name="selected">选中</string>
+    <string name="unselected">为选中</string>
+    <string name="function_logo">function_logo</string>
+    <string name="description_wifi_scan_history_select_status">扫描历史信息选中状态</string>
+    <!-- End of String Values Created By Sam -->
+
+</resources>
